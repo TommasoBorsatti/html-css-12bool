@@ -1,0 +1,32 @@
+
+.container,
+[class*="col-"]{
+  background-color: #FFC0CB;
+  text-align: center;
+  line-height: 200px;
+  vertical-align: middle;
+}
+
+.container{
+  height: 200px;
+}
+
+[class*="col-"]{
+  border: 1px solid black;
+  height: 100%;
+}
+
+h3{
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.nested-col{
+  border: 2px solid white;
+  background-color: #F07F80;
+}
+
+.nested-row{
+  padding: 5px;
+}

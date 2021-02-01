@@ -27,11 +27,13 @@
 }
 
 [class*="col-"].debug{
-  border: 1px solid green
+  border: 1px solid green;
+  min-height: 100px;
 }
 
 .container.debug{
-  border: 1px solid blue
+  border: 1px solid blue;
+  min-height: 100px;
 }
 
 /* Regole per colonne */
