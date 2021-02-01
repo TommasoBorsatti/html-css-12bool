@@ -33,3 +33,9 @@ h3{
 .nested-row{
   padding: 5px;
 }
+
+.clearfix::after{
+  content: "";
+  display:block;
+  clear: both;
+}
