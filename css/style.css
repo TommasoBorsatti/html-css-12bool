@@ -3,8 +3,6 @@
 [class*="col-"]{
   background-color: #FFC0CB;
   text-align: center;
-  line-height: 200px;
-  vertical-align: middle;
 }
 
 .container{
@@ -14,12 +12,17 @@
 [class*="col-"]{
   border: 1px solid black;
   height: 100%;
+  position: relative;
 }
 
 h3{
   font-size: 14px;
   font-weight: 600;
   display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .nested-col{
