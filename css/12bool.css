@@ -27,7 +27,7 @@
 }
 
 .debug [class*="col-"]{
-  border: 2px solid green;
+  border: 2px solid darkgreen;
   min-height: 100px;
   background-color: green;
 }
@@ -35,7 +35,7 @@
 .debug .container{
   border: 2px solid blue;
   min-height: 100px;
-  background-color: blue;
+  background-color: lightblue;
 }
 
 /* Regole per colonne */
