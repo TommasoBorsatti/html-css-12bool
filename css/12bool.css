@@ -26,14 +26,16 @@
   float: left;
 }
 
-[class*="col-"].debug{
-  border: 1px solid green;
+.debug [class*="col-"]{
+  border: 2px solid green;
   min-height: 100px;
+  background-color: green;
 }
 
-.container.debug{
-  border: 1px solid blue;
+.debug .container{
+  border: 2px solid blue;
   min-height: 100px;
+  background-color: blue;
 }
 
 /* Regole per colonne */
